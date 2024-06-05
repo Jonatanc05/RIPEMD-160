@@ -1,4 +1,4 @@
-typedef unsigned long uint32;  // "unsigned int" could appear 16-bit on some older compilers
+typedef unsigned int uint32;
 
 #define BLOCK_LEN 64 // length of each block for processing in bytes
 #define HASH_LEN 20 // length of hash in bytes
